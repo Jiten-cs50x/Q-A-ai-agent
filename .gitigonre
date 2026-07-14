@@ -1,0 +1,33 @@
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Project-specific
+db/              # Persisted Chroma DB (auto-generated embeddings)
+docs/*.pdf       # Optional: ignore large PDFs if you don’t want them in repo
+docs/*.txt       # Optional: ignore personal notes if they’re sensitive
+docs/*.md        # Optional: ignore private markdown notes
